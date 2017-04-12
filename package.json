@@ -1,52 +1,72 @@
 {
-	"name": "aCKolor",
-	"version": "3.0.2-habpanel",
-	"description": "aCKolor fork for HABPanel",
-	"keywords": [
-		"Angular",
-		"color",
-		"color picker"
-	],
-	"author": "Chris Kelsey",
-	"contributors": [
-		"Yannick Schaus"
-	],
-	"license": "MIT",
-	"homepage": "https://github.com/ghys/aCKolor",
-	"dependencies": {
-		"bower": "^*",
-		"browser-sync": "^*",
-		"gulp": "^*",
-		"gulp-angular-embed-templates": "^*",
-		"gulp-autoprefixer": "^*",
-		"gulp-awspublish": "^*",
-		"gulp-clean-css": "^*",
-		"gulp-cloudfront-invalidate-aws-publish": "^*",
-		"gulp-compass": "^*",
-		"gulp-concat": "^*",
-		"gulp-jshint": "^*",
-		"gulp-livereload": "^*",
-		"gulp-ng-annotate": "^*",
-		"gulp-notify": "^*",
-		"gulp-plumber": "^*",
-		"gulp-rename": "^*",
-		"gulp-sourcemaps": "^*",
-		"gulp-to-markdown": "^*",
-		"gulp-uglify": "^*",
-		"jshint": "^*",
-		"q": "^*",
-		"run-sequence": "^*"
-	},
-	"devDependencies": {},
-	"scripts": {
-		"bower": "gulp bower",
-		"postinstall": "gulp install && bower install && gulp"
-	},
-	"bower": {
-		"angular": "~1.5.11",
-		"angular-loader": "~1.5.11",
-		"angular-resource": "~1.5.11",
-		"angular-route": "~1.5.11",
-		"angular-sanitize": "~1.5.11"
-	}
+  "name": "aCKolor",
+  "version": "3.0.3-habpanel",
+  "description": "aCKolor fork for HABPanel",
+  "keywords": [
+    "Angular",
+    "color",
+    "color picker"
+  ],
+  "author": "Chris Kelsey",
+  "contributors": [
+    "Yannick Schaus"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/6Meghana/aCKolor",
+  "dependencies": {
+    "bower": "^*",
+    "browser-sync": "^*",
+    "gulp": "^*",
+    "gulp-angular-embed-templates": "^*",
+    "gulp-autoprefixer": "^*",
+    "gulp-awspublish": "^*",
+    "gulp-clean-css": "^*",
+    "gulp-cloudfront-invalidate-aws-publish": "^*",
+    "gulp-compass": "^*",
+    "gulp-concat": "^*",
+    "gulp-jshint": "^*",
+    "gulp-livereload": "^*",
+    "gulp-ng-annotate": "^*",
+    "gulp-notify": "^*",
+    "gulp-plumber": "^*",
+    "gulp-rename": "^*",
+    "gulp-sourcemaps": "^*",
+    "gulp-to-markdown": "^*",
+    "gulp-uglify": "^*",
+    "jshint": "^*",
+    "q": "^*",
+    "run-sequence": "^*"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-angular-embed-templates": "^2.3.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-to-markdown": "^1.0.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "q": "^1.5.0",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "bower": "gulp bower",
+    "postinstall": "gulp install && bower install && gulp"
+  },
+  "bower": {
+    "angular": "~1.5.11",
+    "angular-loader": "~1.5.11",
+    "angular-resource": "~1.5.11",
+    "angular-route": "~1.5.11",
+    "angular-sanitize": "~1.5.11"
+  }
 }
