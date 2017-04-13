@@ -99,7 +99,7 @@
 
 			/* Toggles ckoloring off */
 			toggleCKoloring: function(){
-				self.ckoloring = false;
+				self.ckoloring = true;
 			},
 
 			/* Updates the display to the given parameter */
