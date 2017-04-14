@@ -115,7 +115,7 @@
                                     if(valid){ scope.model = CKolorFactory.model; }
                                 }catch(e){}
                                 break;
-                            case 'hsl':h
+                            case 'hsl':
                                 try{
                                     colors = CKolorFactory.model.split('(')[1].split(')')[0].split(',');
                                     valid = true;
