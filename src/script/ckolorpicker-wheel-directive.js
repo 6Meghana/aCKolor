@@ -75,7 +75,7 @@
                     wheelMove(e);
                     /* Add mouse move event listeners */
                     body.addEventListener('mousemove', wheelMove, true);
-                    wheel.addEventListener('touchmove', wheelMove, true);
+                    wheel.addEventListener('touchmove', wheelMove, false);
                 };
 
                 /* On mouse down, add mouse move and up listeners to detect dragging start/end */

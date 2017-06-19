@@ -142,6 +142,10 @@
 
                     }
                 });
+                
+                $scope.onTouchmove = function($event) {
+   console.log('touchmove event called');
+}
 
                 /* On color wheel closing, clear the blurring classes */
                 scope.$watch(function(){return CKolorFactory.ckoloring;}, function(newVal, oldVal){
