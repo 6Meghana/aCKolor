@@ -78,11 +78,9 @@
 					}
 					localStorage.aCKolorPreviousColors = angular.toJson(self.previousColors);
 				}
-<<<<<<< HEAD
+
 			//	self.toggleCKoloring();//to close the color picker
-=======
-			/*self.toggleCKoloring(); */
->>>>>>> 916c07be169adcf7e953e9d5826437ceecd64544
+
 			},
 
 			previousColorClick: function(color){
